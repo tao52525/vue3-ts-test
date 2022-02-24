@@ -23,7 +23,7 @@
         <a-menu-item key="/about">About</a-menu-item>
       </a-menu-item-group>
       <a-menu-item-group key="g2" title="Item 2">
-        <a-menu-item key="3">Option 3</a-menu-item>
+        <a-menu-item key="/form">From</a-menu-item>
         <a-menu-item key="4">Option 4</a-menu-item>
       </a-menu-item-group>
     </a-sub-menu>

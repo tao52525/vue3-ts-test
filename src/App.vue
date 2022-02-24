@@ -7,7 +7,7 @@ import Sider from './components/Sider.vue'
     <a-layout-sider theme="light"><Sider></Sider></a-layout-sider>
     <a-layout>
       <a-layout-header style="background: #fff">Header</a-layout-header>
-      <a-layout-content>
+      <a-layout-content class="content">
         <router-view></router-view>
       </a-layout-content>
       <a-layout-footer>Footer</a-layout-footer>
@@ -20,10 +20,12 @@ import Sider from './components/Sider.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 .main {
   height: 100vh;
+}
+.content {
+  padding: 20px;
 }
 </style>

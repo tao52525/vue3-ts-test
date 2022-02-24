@@ -3,9 +3,12 @@ const Home = () => import(/* webpackChunkName: "home" */ './views/Home.vue')
 const About = () => import(/* webpackChunkName: "About" */ './views/About.vue')
 const NotFound = () =>
   import(/* webpackChunkName: "NotFound" */ "./views/NotFound.vue");
+  
+const Form = () => import(/* webpackChunkName: "Form" */ "@/views/Form.vue");
 const routes = [
   { path: "/", component: Home },
   { path: "/about", component: About },
+  { path: "/form", component: Form },
   { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound },
 ];
 const router = createRouter({
